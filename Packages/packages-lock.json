@@ -27,11 +27,14 @@
       },
       "url": "https://registry.npmjs.com"
     },
-    "com.unity.modules.accessibility": {
+    "jp.keijiro.tmp-essentials": {
       "version": "1.0.0",
       "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0"
+      },
+      "url": "https://registry.npmjs.com"
     },
     "com.unity.modules.hierarchycore": {
       "version": "1.0.0",
