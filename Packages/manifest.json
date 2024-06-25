@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "com.unity.inputsystem": "1.8.2",
+    "com.unity.ugui": "2.0.0",
+    "jp.keijiro.klak.ndi": "2.1.2",
+    "com.unity.modules.accessibility": "1.0.0"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ]
+}
