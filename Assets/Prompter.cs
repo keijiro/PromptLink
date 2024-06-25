@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UI;
+using TMPro;
 
 namespace PromptLink {
 
@@ -16,7 +16,7 @@ public sealed class Prompter : MonoBehaviour
 
     #region Scene objects
 
-    [field:SerializeField] public Text _targetUI { get; set; } = null;
+    [field:SerializeField] public TMP_Text _targetUI { get; set; } = null;
 
     #endregion
 
