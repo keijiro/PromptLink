@@ -1,0 +1,4 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Label text="This is the primary screen GUI that shouldn&apos;t appear on the prompter screen." style="color: rgb(255, 255, 255); white-space: normal;" />
+    <engine:VisualElement style="bottom: 20px; right: 20px; width: 256px; height: 118px; position: absolute; background-image: url(&quot;project://database/Packages/jp.keijiro.prompt-link/Runtime/PrompterScreen.renderTexture?fileID=8400000&amp;guid=109f4251858d8452a9d9d916d3ecfc41&amp;type=2#PrompterScreen&quot;);" />
+</engine:UXML>

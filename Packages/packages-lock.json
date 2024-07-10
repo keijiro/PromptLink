@@ -2,39 +2,31 @@
   "dependencies": {
     "com.unity.inputsystem": {
       "version": "1.8.2",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.ugui": {
-      "version": "2.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.ui": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0"
-      }
-    },
     "jp.keijiro.klak.ndi": {
       "version": "2.1.2",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.screencapture": "1.0.0"
       },
       "url": "https://registry.npmjs.com"
     },
-    "jp.keijiro.tmp-essentials": {
-      "version": "1.0.0",
+    "jp.keijiro.prompt-link": {
+      "version": "file:jp.keijiro.prompt-link",
       "depth": 0,
-      "source": "registry",
+      "source": "embedded",
       "dependencies": {
-        "com.unity.ugui": "2.0.0"
-      },
-      "url": "https://registry.npmjs.com"
+        "com.unity.inputsystem": "1.8.2",
+        "com.unity.modules.uielements": "1.0.0",
+        "jp.keijiro.klak.ndi": "2.1.2"
+      }
     },
     "com.unity.modules.hierarchycore": {
       "version": "1.0.0",
@@ -44,13 +36,13 @@
     },
     "com.unity.modules.imageconversion": {
       "version": "1.0.0",
-      "depth": 2,
+      "depth": 3,
       "source": "builtin",
       "dependencies": {}
     },
     "com.unity.modules.imgui": {
       "version": "1.0.0",
-      "depth": 1,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {}
     },
@@ -62,7 +54,7 @@
     },
     "com.unity.modules.screencapture": {
       "version": "1.0.0",
-      "depth": 1,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.imageconversion": "1.0.0"
@@ -70,7 +62,7 @@
     },
     "com.unity.modules.ui": {
       "version": "1.0.0",
-      "depth": 1,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {}
     },
