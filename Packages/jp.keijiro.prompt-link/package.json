@@ -9,7 +9,7 @@
     "repository": "github:keijiro/PromptLink",
     "unity": "6000.0",
     "unityRelease": "1f1", 
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependencies": {
         "com.unity.inputsystem": "1.8.2",
         "com.unity.modules.uielements": "1.0.0",
